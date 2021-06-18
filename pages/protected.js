@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useSession } from 'next-auth/client'
+import { useSession } from 'next-auth/react'
 import Layout from '../components/layout'
 import AccessDenied from '../components/access-denied'
 
